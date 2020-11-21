@@ -6,17 +6,8 @@
 
 //Declarations
 
-void mode();
+void mode(int pin, string set);
 void write();
 void check();
 
-//Functions
 
-void mode(int pin, string set) {
-    if(set == "in") {
-        pinMode(pin, INPUT);
-    } 
-    if(set == "out"){
-        pinMode(pin, OUTPUT);
-    }
-}
